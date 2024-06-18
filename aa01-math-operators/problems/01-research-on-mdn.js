@@ -7,8 +7,10 @@ Optional: Research what the `typeof` keyword does on MDN.
 */
 
 function turnNumIntoStr(num) {
-  return num;
+  return (num.toString());
 }
+
+
 
 // let hundred = turnNumIntoStr(100);
 // console.log(hundred);       //=> '100'
